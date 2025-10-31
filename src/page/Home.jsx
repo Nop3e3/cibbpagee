@@ -7,6 +7,7 @@ import Icon2 from '../Assets/icon2.png';
 import Icon3 from '../Assets/ico3.png';
 import logo from '../Assets/logo.svg';
 import Image1 from '../Assets/Image1.png';
+import App from '../Assets/appp.png';
 import Image2 from '../Assets/Image2.png';
 import Image3 from '../Assets/Image3.png';
 import Header from '../components/layout/Header';
@@ -16,6 +17,8 @@ import SubTitle from '../components/common/SubTitle';
 import SmallMenuTap from '../components/common/SmallMenuTap';
 import CenterCard from '../components/common/CenterCard';
 import Button from '../components/common/Button';
+import NewsCard from '../components/common/NewsCard';
+import Footer from '../components/layout/Footer';
 export default function Home() {
   return (
     <div className="homee">
@@ -65,8 +68,52 @@ without spending a fortune with these helpful tips and tricks:" />
  
   <SmallMenuTap title="News" />
 <div className='COL'>
+<NewsCard/>
+<NewsCard/>
+<NewsCard/>
 
-</div></section>
+</div>
+<Button label="View more news" />
+</section>
+<section className='banner'>
+  <div className='bannerr'>
+    <h2>CIB on an international scale</h2>
+    <p>Learn more about CIB's presence outside of Egypt</p>
+    <Button label="Learn More" />
+  </div>
+</section>
+<footer className='footerr'>
+  <div className='rowfo22'>
+     <img src={logo} alt="Logo" />
+  <div className='collll'>
+  <Footer title="Learning Centers" />
+    <Footer title="Fees & Charges" />
+      <Footer title="Terms & Conditions" />
+       
+  </div>
+    <div className='collll'>
+      <Footer title='Local'/>
+  <Footer title="Abroad" />
+    <Footer title="Business" />
+      <Footer title="Corporate" />
+       
+  </div>
+    <div className='collll'>
+  <Footer title="Careers" />
+    <Footer title="Why CIB" />
+      <Footer title="Email us" />
+      <Footer title="System Status" />
+       
+  </div>
+  <img src={App} alt="Logo" /></div>
+    <div className='rowfo2'>
+      <Footer title="User Agreements" />
+      <Footer title="Privacy Policy" />
+      <Footer title="Cookie Policy" />
+      <Footer title="CBE Approvals" />
+
+</div>
+</footer>
     </div>
   );
 }
