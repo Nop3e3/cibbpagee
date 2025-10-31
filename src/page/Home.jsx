@@ -82,8 +82,14 @@ without spending a fortune with these helpful tips and tricks:" />
     <Button label="Learn More" />
   </div>
 </section>
+<section className='topsect'>
+  <SubTitle title="Apply Online" />
+  <SmallMenuTap title=" Apply online now for cards and loans with ease!" />
+<div className='roww'>
+<div className='cardya'></div>
+</div></section>
 <footer className='footerr'>
-  <div className='rowfo22'>
+  <div className='rowfo2'>
      <img src={logo} alt="Logo" />
   <div className='collll'>
   <Footer title="Learning Centers" />
@@ -106,13 +112,16 @@ without spending a fortune with these helpful tips and tricks:" />
        
   </div>
   <img src={App} alt="Logo" /></div>
-    <div className='rowfo2'>
+    <div className='rowfo22'>
       <Footer title="User Agreements" />
       <Footer title="Privacy Policy" />
       <Footer title="Cookie Policy" />
       <Footer title="CBE Approvals" />
 
 </div>
+</footer>
+<footer className='copyright'>
+  <p>© 2024 Commercial International Bank. All rights reserved.</p>
 </footer>
     </div>
   );
