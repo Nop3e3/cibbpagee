@@ -1,0 +1,19 @@
+.thenavbar{
+    width: 100%;
+    background: #032D62;
+    display: flex;
+width: 90%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 20px;
+padding-top: 20px;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+    
+}
+.navelementss{
+    display: inline-flex;
+
+gap: 24px;
+}
