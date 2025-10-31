@@ -3,6 +3,8 @@ import React from 'react';
 import './Home.css';
 import Navbar from '../components/layout/Navbar';
 import logo from '../Assets/logo.svg';
+import Header from '../components/layout/Header';
+import SectionTitle from '../components/common/SectionTitle';
 export default function Home() {
   return (
     <div className="homee">
@@ -17,6 +19,10 @@ export default function Home() {
 <Navbar label="Careers" />
 <Navbar label="Others" />
 </div>
+</nav>
+<Header />
+<nav className='smallnav'>
+  <SectionTitle title="Apply Online" />
 </nav>
     </div>
   );
