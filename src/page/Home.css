@@ -14,6 +14,6 @@ gap: 30px;
 }
 .navelementss{
     display: inline-flex;
-
+align-items: center;
 gap: 24px;
 }
