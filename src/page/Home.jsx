@@ -9,6 +9,9 @@ import logo from '../Assets/logo.svg';
 import Image1 from '../Assets/Image1.png';
 import App from '../Assets/appp.png';
 import Image2 from '../Assets/Image2.png';
+import icon4 from '../Assets/icon4.png';
+import icon5 from '../Assets/icon5.png';
+import icon6 from '../Assets/icon6.png';
 import Image3 from '../Assets/Image3.png';
 import Header from '../components/layout/Header';
 import SectionTitle from '../components/common/SectionTitle';
@@ -84,8 +87,7 @@ without spending a fortune with these helpful tips and tricks:" />
     <p>Learn more about CIB's presence outside of Egypt</p>
     <Button label="Learn More" />
   </div>
-</section>
-<section className='topsect'>
+</section><section className='topsect'>
   <SubTitle title="Sustainable finance" />
   <SmallMenuTap title=" Sustainability is an integral part of the way we work" />
 <div className='roww'>
@@ -101,7 +103,30 @@ without spending a fortune with these helpful tips and tricks:" />
       <img src={brand3} alt="brand3" />
       FTSE4Good Index
 </div>
-</div></section>
+</div>
+<Button label="Learn More" /></section>
+<section className='topsect'>
+  <SubTitle title="Awards" />
+  <SmallMenuTap title="CIB's integrity and quality are recognized internationally" />
+<div className='roww'>
+<div className='cardya'>
+      <img src={icon4} alt="icon4" />
+      Best Private Bank in Egypt
+         <p  className='thin'>Global Finance - 2023</p>
+</div>
+<div className='cardya'>
+      <img src={icon5} alt="icon5" />
+      Best Mergers & Acquisitions Deal in MENA
+      <p  className='thin'>EMEA Finance - 2023</p>
+</div>
+<div className='cardya'>
+      <img src={icon6} alt="icon6" />
+      Best Bank in Egypt
+       <p className='thin'>Euromoney - 2023</p>
+</div>
+</div>
+<Button label="See all our awards" /></section>
+
 <footer className='footerr'>
   <div className='rowfo2'>
      <img src={logo} alt="Logo" />
