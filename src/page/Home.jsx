@@ -10,6 +10,9 @@ import Image1 from '../Assets/Image1.png';
 import App from '../Assets/appp.png';
 import Image2 from '../Assets/Image2.png';
 import icon4 from '../Assets/icon4.png';
+import icon7 from '../Assets/icon7.png';
+import icon8 from '../Assets/icon8.png';
+import icon9 from '../Assets/icon9.png';
 import icon5 from '../Assets/icon5.png';
 import icon6 from '../Assets/icon6.png';
 import Image3 from '../Assets/Image3.png';
@@ -126,7 +129,40 @@ without spending a fortune with these helpful tips and tricks:" />
 </div>
 </div>
 <Button label="See all our awards" /></section>
+<section className='topsect'>
+  <SubTitle title="We care" />
+  <SmallMenuTap title=" Our dedicated team is committed to meeting your needs" />
+<div className='roww'>
+<div className='cardyaaa'>
+      <img src={icon7} alt="icon4" />
 
+<div className='alabaad'>
+  <h1>Online</h1>
+  <p>Chat with 'Zaki' our digital assistant to guide you through our products and services, or reach out on social media.</p>
+</div>
+
+</div>
+<div className='cardyaaa'>
+      <img src={icon8} alt="icon4" />
+
+<div className='alabaad'>
+  <h1>On the phone</h1>
+  <p>For support, including emergencies such as cards closure or immediate critical feedback.</p>
+</div>
+
+</div>
+<div className='cardyaaa'>
+      <img src={icon9} alt="icon4" />
+
+<div className='alabaad'>
+  <h1>In branch</h1>
+  <p>Our trained team of tellers and relationship managers are here to help you get the service you need.</p>
+</div>
+
+</div>
+
+</div>
+</section>
 <footer className='footerr'>
   <div className='rowfo2'>
      <img src={logo} alt="Logo" />
