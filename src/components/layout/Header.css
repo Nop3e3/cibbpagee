@@ -1,0 +1,41 @@
+.alab3d{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 37px;
+align-self: stretch;
+}
+.ttl{
+    align-self: stretch;
+
+color: #FFF;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 37.3px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 128.686% */
+}
+.para{
+    color: #FFF;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23.1px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 155.845% */
+}
+.hheader{
+display: flex;
+width: 90%;
+height: 628px;
+padding-left: 10%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+background-image: url("../../Assets/backgroundimage.png");
+background-position: right;
+background-size: cover;
+}
