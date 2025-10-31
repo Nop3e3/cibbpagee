@@ -19,6 +19,9 @@ import CenterCard from '../components/common/CenterCard';
 import Button from '../components/common/Button';
 import NewsCard from '../components/common/NewsCard';
 import Footer from '../components/layout/Footer';
+import brand1 from '../Assets/brand1.png';
+import brand2 from '../Assets/brand2.png';
+import brand3 from '../Assets/brand3.png';
 export default function Home() {
   return (
     <div className="homee">
@@ -83,10 +86,21 @@ without spending a fortune with these helpful tips and tricks:" />
   </div>
 </section>
 <section className='topsect'>
-  <SubTitle title="Apply Online" />
-  <SmallMenuTap title=" Apply online now for cards and loans with ease!" />
+  <SubTitle title="Sustainable finance" />
+  <SmallMenuTap title=" Sustainability is an integral part of the way we work" />
 <div className='roww'>
-<div className='cardya'></div>
+<div className='cardya'>
+      <img src={brand1} alt="brand1" />
+      S&P/EGX ESG Index
+</div>
+<div className='cardya'>
+      <img src={brand2} alt="brand2" />
+      Bloomberg Gender Equality Index
+</div>
+<div className='cardya'>
+      <img src={brand3} alt="brand3" />
+      FTSE4Good Index
+</div>
 </div></section>
 <footer className='footerr'>
   <div className='rowfo2'>
